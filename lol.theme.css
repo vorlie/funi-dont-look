@@ -7,16 +7,16 @@
  * @authorId 508863359777505290
 */
 
-@import url('https://refact0r.github.io/midnight-discord/midnight.css');
+@import url('https://raw.githubusercontent.com/vorlie/funi-dont-look/main/root.css');
 
 /* change colors here */
 /* a color picker should show up if you hover over the "hsl(x, y, z)" part */
 :root {
 	/* link color */
-	--link-color: #e05252;
+	--link-color: #ffcdd2;
 
 	/* main accent color (mentions, folder icons, unread indicators) */
-	--accent-color: #cc3333;
+	--accent-color: #ff6f6f;
 
 	/* darker accent color (background of any accent items with text) */
 	--accent-background: #a32929;
