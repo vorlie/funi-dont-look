@@ -1,7 +1,7 @@
 @import url('https://raw.githubusercontent.com/vorlie/funi-dont-look/main/root.css');
 
 /* change colors here */
-/* a color picker should show up if you hover over the "hsl(x, y, z)" part */
+/* a color picker should show up if you hover over the "hsl(x, y, z)", "#000000" part */
 :root {
 	/* link color */
 	--link-color: #ffcdd2;
