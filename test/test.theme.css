@@ -1,0 +1,70 @@
+@import url('https://raw.githubusercontent.com/vorlie/funi-dont-look/main/test/root.css');
+
+/* change colors here */
+/* a color picker should show up if you hover over the "hsl(x, y, z)", "#000000" part */
+:root {
+	/* link color */
+	--link-color: #ffcdd2;
+
+	/* main accent color (mentions, folder icons, unread indicators) */
+	--accent-color: #ff6f6f;
+
+	/* darker accent color (background of any accent items with text) */
+	--accent-background: #a32929;
+
+	/* even darker accent color (background of accent buttons when hover) */
+	--accent-background-2: #7a1f1f;
+
+	/* even darker accent color (background of accent buttons when clicked) */
+	--accent-background-3: #521414;
+
+	/* background of mention text and messages that mention you */
+	--mention-modifier: #cc33331a;
+
+	/* background of messages that mention you on hover */
+	--mention-hover-modifier: #cc33330d;
+
+	/* bright text for colored buttons */
+	--bright-text: #f0dbdb;
+
+	/* header text for headers and certain text */
+	--header-text: #c99c9c;
+
+	/* main text color (messages, titles, unread text/indicators) */
+	--primary-text: #a88a8a;
+
+	/* secondary text color (channels, descriptions, buttons) */
+	--secondary-text: #755757;
+
+	/* muted text color (input box placeholders, muted channels, message times) */
+	--muted-text: #463434;
+
+	/* background of muted colored buttons on hover */
+	--muted-background-hover: #3b2b2b;
+
+	/* background of muted colored buttons on click */
+	--muted-background-active: #2f2323;
+
+	/* background of pretty much everything not using primary background */
+	--secondary-background: #261c1c;
+
+	/* main chat/channel list/member list background */
+	--primary-background: #1d1616;
+
+	/* overlay background on stuff when hovered over */
+	--hover-modifier: #7a52521a;
+
+	/* overlay background on stuff when clicked or selected */
+	--active-modifier: #7a525233;
+
+	/* overlay background on messages when hovered over */
+	--message-hover-modifier: #0000001a;
+    
+	/* radius of round corners */
+	--roundness: 16px;
+}
+
+::selection {
+    color: var(--accent-color);
+    background: #FFFFFF;
+  }
