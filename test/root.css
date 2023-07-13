@@ -88,6 +88,9 @@
 	--search-popout-option-fade-hover: none;
 }
 
+.link-1_kTxV{
+	border-radius: var(--roundness);
+}
 /* fix colors */
 .mentioned-Tre-dv:before /* mention message left edge */,
 .container-1QtPKm.default-colors:checked /* settings checkbuttons */ {
