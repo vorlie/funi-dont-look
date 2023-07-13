@@ -41,7 +41,6 @@
 	/* radius of round corners */
 	--roundness: 16px;
 	--roundness-channel: 10px;
-	--roundness-member: 10px;
 }
 
 :root.theme-dark,
@@ -90,7 +89,7 @@
 	--search-popout-option-fade-hover: none;
 }
 
-.link-1_kTxV,.layout-1qmrhw{
+.link-1_kTxV,.layout-1qmrhw,.link-39sEB3,.item-2GWPIy{
 	border-radius: var(--roundness-channel);
 }
 /* fix colors */
