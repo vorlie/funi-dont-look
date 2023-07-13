@@ -40,6 +40,7 @@
 	--message-hover-modifier: hsl(220, 0%, 0%, 0.1);
 	/* radius of round corners */
 	--roundness: 16px;
+	--roundness-channel: 10px;
 }
 
 :root.theme-dark,
@@ -86,6 +87,14 @@
 
 	--search-popout-option-fade: none;
 	--search-popout-option-fade-hover: none;
+}
+
+/* More rounded corners*/
+.link-1_kTxV,
+.layout-1qmrhw,
+.interactive-26HRN_,
+.content-1Tgc42{
+	border-radius: var(--roundness-channel);
 }
 
 /* fix colors */
