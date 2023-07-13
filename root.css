@@ -90,10 +90,10 @@
 }
 
 /* More rounded corners*/
-.link-1_kTxV,
-.layout-1qmrhw,
-.interactive-26HRN_,
-.content-1Tgc42{
+.link-1_kTxV, /* Channels */
+.layout-1qmrhw, /* Members */
+.interactive-26HRN_, /* Friends list */
+.content-1Tgc42 /* Member connected to the voice channel*/{
 	border-radius: var(--roundness-channel);
 }
 
