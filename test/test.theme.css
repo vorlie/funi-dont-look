@@ -31,10 +31,10 @@
 	--header-text: #dab1eb;
 
 	/* main text color (messages, titles, unread text/indicators) */
-	--primary-text: #d492f0;
+	--primary-text: #b7aeba;
 
 	/* secondary text color (channels, descriptions, buttons) */
-	--secondary-text: #d492f0;
+	--secondary-text: #685775;
 
 	/* muted text color (input box placeholders, muted channels, message times) */
 	--muted-text: #4b454d;
