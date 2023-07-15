@@ -4,58 +4,58 @@
 /* a color picker should show up if you hover over the "hsl(x, y, z)", "#000000" part */
 :root {
 	/* link color */
-	--link-color: #ffcdd2;
+	--link-color: #e1b6ff;
 
 	/* main accent color (mentions, folder icons, unread indicators) */
-	--accent-color: #ff6f6f;
+	--accent-color: #e1b6ff;
 
 	/* darker accent color (background of any accent items with text) */
-	--accent-background: #a32929;
+	--accent-background: #8a63a3;
 
 	/* even darker accent color (background of accent buttons when hover) */
-	--accent-background-2: #7a1f1f;
+	--accent-background-2: #784a9a;
 
 	/* even darker accent color (background of accent buttons when clicked) */
-	--accent-background-3: #521414;
+	--accent-background-3: #382c42;
 
 	/* background of mention text and messages that mention you */
-	--mention-modifier: #cc33331a;
+	--mention-modifier: #8233cc1a;
 
 	/* background of messages that mention you on hover */
-	--mention-hover-modifier: #cc33330d;
+	--mention-hover-modifier: #8233cc0d;
 
 	/* bright text for colored buttons */
-	--bright-text: #f0dbdb;
+	--bright-text: #eeddf5;
 
 	/* header text for headers and certain text */
-	--header-text: #c99c9c;
+	--header-text: #dab1eb;
 
 	/* main text color (messages, titles, unread text/indicators) */
-	--primary-text: #a88a8a;
+	--primary-text: #d492f0;
 
 	/* secondary text color (channels, descriptions, buttons) */
-	--secondary-text: #755757;
+	--secondary-text: #d492f0;
 
 	/* muted text color (input box placeholders, muted channels, message times) */
-	--muted-text: #463434;
+	--muted-text: #4b454d;
 
 	/* background of muted colored buttons on hover */
-	--muted-background-hover: #3b2b2b;
+	--muted-background-hover: #322b3b;
 
 	/* background of muted colored buttons on click */
-	--muted-background-active: #2f2323;
+	--muted-background-active: #29232f;
 
 	/* background of pretty much everything not using primary background */
-	--secondary-background: #261c1c;
+	--secondary-background: #211c26;
 
 	/* main chat/channel list/member list background */
-	--primary-background: #1d1616;
+	--primary-background: #19161d;
 
 	/* overlay background on stuff when hovered over */
-	--hover-modifier: #7a52521a;
+	--hover-modifier: #65527a1a;
 
 	/* overlay background on stuff when clicked or selected */
-	--active-modifier: #7a525233;
+	--active-modifier: #68527a33;
 
 	/* overlay background on messages when hovered over */
 	--message-hover-modifier: #0000001a;
@@ -66,5 +66,5 @@
 
 ::selection {
     color: var(--accent-color);
-    background: #FFFFFF;
+    background: var(--accent-background-3);
   }
