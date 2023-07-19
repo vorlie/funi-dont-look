@@ -93,7 +93,8 @@
 .link-1_kTxV, /* Channels */
 .layout-1qmrhw, /* Members */
 .interactive-26HRN_, /* Friends list */
-.content-1Tgc42 /* Member connected to the voice channel*/{
+.content-1Tgc42, /* Member connected to the voice channel*/
+.embed-hKpSrO /* Embeds */ {
 	border-radius: var(--roundness-channel);
 }
 
