@@ -1,0 +1,8 @@
+.container__5bda1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2px;
+    /* min-height: 22px; */
+}
